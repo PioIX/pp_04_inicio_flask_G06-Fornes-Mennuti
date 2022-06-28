@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Home - Emisiones de CO2</h1>
+  
+<label>Top 10 per capita:</label>
+  <br>
+<button class = botones onclick="location.href='https://act-4-ejercicio-2.agustinafornes.repl.co/listado'">Top 10 per capita</button>
+  
+<br></br>
+
+<label>Top 10 de Total:</label>
+  <br> 
+<button class = botones onclick="location.href='https://act-4-ejercicio-2.agustinafornes.repl.co/listado/top'">Top 10 total</button>
+  
+<br></br>
+  
+<label> Top total y per capita por país:</label>
+    <br>
+    <input type="text" id="inputListadoPais" placeholder="Ingrese un país">
+    <script>
+      function buscarPais(){
+        paisParaBuscar = document.getElementById("inputListadoPais").value;
+        window.location.href=`https://act-4-ejercicio-2.agustinafornes.repl.co/listado/${paisParaBuscar}`;
+      }
+    </script>
+    <button class = botones onclick="buscarPais()">Buscar</button>
+  
+<br></br>
+  
+<label> Acerca de la pagina:</label>
+  <br>
+<button class = botones onclick="location.href='https://act-4-ejercicio-2.agustinafornes.repl.co/ayuda'">Ayuda</button> 
+</body>
+</html>

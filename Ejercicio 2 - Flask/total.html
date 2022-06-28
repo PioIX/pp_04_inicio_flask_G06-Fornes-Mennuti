@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>total</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Top 10 Total:</h1>
+    <ol>
+      {% for i in range (10) %}
+      <tr>
+        <li><td>{{ Top10[i][0] }} ({{ Top10[i][1] }})</td></li>
+      </tr>      
+      {% endfor %}
+    </ol>
+      
+</body>
+</html>
