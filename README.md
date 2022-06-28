@@ -1,1 +1,2 @@
-# pp_04_inicio_flask_G06-Fornes-Mennuti
+# Proyecto de Producción - Actividad 04 (inicio flask)
+## Grupo 06: Agustina Fornés y Chiara Mennuti
